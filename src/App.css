@@ -51,7 +51,7 @@ table {
 }
 .title{
   text-align: center;
-  margin:50px 0;
+  margin:50px 0 30px;
 }
 .sub_title{
   font-size:1.5em;
@@ -70,6 +70,9 @@ table {
 }
 .item-box{
   align-items: center;
+}
+.item-img img{
+  border-radius: 100%;
 }
 .name{
   font-size:1em;
