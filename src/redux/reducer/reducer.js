@@ -13,7 +13,8 @@ function reducer(state = initialState, action){
                     ...state.contactList,
                     {
                         name: payload.name,
-                        phoneNumber: payload.phoneNumber
+                        phoneNumber: payload.phoneNumber,
+                        formGroup : payload.formGroup,
                     },
                 ],
             };

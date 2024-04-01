@@ -12,6 +12,9 @@ const ContactItem = ({item}) => {
             <Col xs={10}>
                 <div className="name">{item.name}</div>
                 <div className="phone">{item.phoneNumber}</div>
+                {item.formGroup && item.formGroup !== "그룹을 선택해주세요." && (
+                   <div className="group">{item.formGroup}</div>
+                )}
             </Col>
         </Row>
     </div>

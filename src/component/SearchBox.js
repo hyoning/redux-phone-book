@@ -20,7 +20,7 @@ const SearchBox = () => {
                 <Form.Control className="mb-3" type="text" placeholder="이름을 입력해주세요." value={keyword} onChange={(event) => setKeyword(event.target.value)}/>
             </Col>
             <Col lg={3}>
-                <Button className="search_btn" variant="dark" type="submit">search</Button>
+                <Button className="search_btn" variant="dark" type="submit">검색</Button>
             </Col>
         </Row>
         </Form>

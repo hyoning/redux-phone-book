@@ -88,8 +88,25 @@ table {
   font-weight: 400;
   color:#999;
 }
+.group{
+  font-size:0.6em;
+  padding:2px 5px;
+  background:#222;
+  border-radius: 4px;
+  color:#fff;
+  display: inline-block;
+}
+.redInfo{
+  color:#f22441;
+  font-size:0.7em;
+}
 @media (min-width: 992px){
   .search-form{
      padding:0;
   }
+}
+label{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
 }
