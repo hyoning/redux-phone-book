@@ -7,7 +7,7 @@ const ContactItem = ({item}) => {
     <div>
         <Row className="mb-3 item-box">
             <Col xs={2} className="item-img">
-                <img width={50} src={Person} alt=""/>
+                <img src={Person} alt=""/>
             </Col>
             <Col xs={10}>
                 <div className="name">{item.name}</div>
